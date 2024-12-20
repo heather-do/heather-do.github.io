@@ -1,6 +1,6 @@
 # Heather Do's personal website
 
-This is a SvetelKit app. Make changes as necessary to the `main` branch, then run
+This is a SvelteKit app. Make changes as necessary to the `main` branch, then run
 
 ```zsh
 npm run publish
