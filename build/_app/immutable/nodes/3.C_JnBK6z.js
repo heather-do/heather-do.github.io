@@ -1,0 +1,1 @@
+import{t as o,a}from"../chunks/disclose-version.CKqln0LR.js";import"../chunks/legacy.leDhLNVH.js";import{n as m}from"../chunks/runtime.Bn4r8nqZ.js";function i(t){m();var e=o("Hello, my name is Heather Do!");a(t,e)}export{i as component};

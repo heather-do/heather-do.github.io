@@ -1,0 +1,26 @@
+# All dotfiles
+.*
+
+# gitignore
+!.gitignore
+
+# .envrc
+!.envrc
+
+# Node
+node_modules
+
+# OS
+Thumbs.db
+
+# Env
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Prettier
+!.prettierignore
+!.prettierrc
