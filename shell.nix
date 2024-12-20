@@ -4,6 +4,6 @@ let
 in
 pkgs.mkShellNoCC {
     packages = with pkgs; [
-        deno
+        nodejs_22
     ];
 }
