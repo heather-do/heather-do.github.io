@@ -1,0 +1,6 @@
+# All dotfiles
+.*
+
+# .gitignore
+!.gitignore
+!.envrc
