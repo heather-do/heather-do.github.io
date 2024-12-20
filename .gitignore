@@ -10,9 +10,6 @@
 # Node
 node_modules
 
-# Output
-/build
-
 # OS
 Thumbs.db
 
