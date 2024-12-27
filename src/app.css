@@ -3,6 +3,10 @@
 @import 'tailwindcss/utilities';
 
 html {
+	/* Measurements */
+	--desktop-min-width: 1024px;
+	--mobile-max-width: 720px;
+
 	/* Colors */
 	--color-background: #fff5ec;
 	--color-text-primary: #884e41;
