@@ -1,3 +1,26 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+html {
+	--background: #fff5ec;
+	--text-primary: #884e41;
+}
+
+@font-face {
+	font-family: Newsreader;
+	font-style: normal;
+	src: url('/fonts/Newsreader-VariableFont_opsz,wght.ttf');
+}
+
+@font-face {
+	font-family: Newsreader;
+	font-style: italic;
+	src: url('/fonts/Newsreader-Italic-VariableFont_opsz,wght.ttf');
+}
+
+body {
+	background-color: var(--background);
+	font-family: Newsreader, serif;
+	color: var(--text-primary);
+}
