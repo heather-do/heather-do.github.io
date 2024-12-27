@@ -38,3 +38,9 @@ p {
 	font-size: 1.25rem;
 	margin-bottom: 1.5rem;
 }
+
+@media not all and (min-width: 1024px) {
+	p {
+		font-size: 1.125rem;
+	}
+}

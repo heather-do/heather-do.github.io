@@ -2,13 +2,21 @@
 	import { base } from '$app/paths';
 </script>
 
-<article class="grid max-desktop:grid-rows-2 desktop:grid-cols-2">
+<article
+	class="flex max-desktop:mx-10 max-desktop:flex-col max-desktop:pt-0 desktop:flex-row desktop:pt-16"
+>
 	<section>
 		<figure>
-			<img alt="Heather Do's headshot" src="{base}/images/heather-min.jpg" />
+			<img
+				class="max-desktop:m-auto"
+				alt="Heather Do's headshot"
+				src="{base}/images/heather-min.jpg"
+			/>
 		</figure>
 	</section>
-	<div class="flex items-center justify-end">
+	<div
+		class="ml-auto flex items-center max-desktop:mr-auto max-desktop:mt-12 desktop:mr-0 desktop:pl-16"
+	>
 		<section class="max-w-prose">
 			<p>
 				Hello! I am a Ph.D. student in Interdisciplinary Studies in Human Development at the
@@ -39,7 +47,8 @@
 
 <style>
 	article {
-		padding: 4rem clamp(0px, calc(100vw - var(--desktop-min-width)), 12.5rem) 0;
+		padding-left: clamp(0px, calc(100vw - var(--desktop-min-width)), 12.5rem);
+		padding-right: clamp(0px, calc(100vw - var(--desktop-min-width)), 12.5rem);
 	}
 
 	img {
