@@ -33,3 +33,8 @@ body {
 a:hover {
 	text-decoration: underline;
 }
+
+p {
+	font-size: 1.25rem;
+	margin-bottom: 1.5rem;
+}
