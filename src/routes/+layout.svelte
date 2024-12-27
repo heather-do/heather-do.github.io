@@ -1,25 +1,27 @@
 <script lang="ts">
 	import '../app.css';
+	import { base } from '$app/paths';
+
 	let { children } = $props();
 </script>
 
 <header>
 	<nav class="grid h-32 border-b-2 border-b-black max-desktop:grid-rows-2 desktop:grid-cols-2">
 		<div id="home" class="flex items-center max-desktop:justify-center">
-			<a class="text-3xl font-semibold" href="/">Hang (Heather) Do</a>
+			<a class="text-3xl font-semibold" href="{base}/">Hang (Heather) Do</a>
 		</div>
 		<div id="menu" class="flex max-desktop:justify-center desktop:justify-end">
 			<ul
 				class="flex flex-row max-desktop:gap-8 max-desktop:text-xl desktop:gap-16 desktop:text-2xl"
 			>
-				<li><a href="/about">About</a></li>
-				<li><a href="/research">Research</a></li>
-				<li><a href="/todo">CV</a></li>
+				<li><a href="{base}/about">About</a></li>
+				<li><a href="{base}/research">Research</a></li>
+				<li><a href="{base}/todo">CV</a></li>
 				<li>
 					<a
 						class="-translate-y-0.5 max-desktop:h-6 max-desktop:w-6 desktop:h-8 desktop:w-8"
-						href="/todo"
-						aria-label="Heather's LinkedIn profile"
+						href="{base}/todo"
+						aria-label="Heather Do's LinkedIn profile"
 						><svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg"
 							><g fill="none" fill-rule="evenodd"
 								><path
