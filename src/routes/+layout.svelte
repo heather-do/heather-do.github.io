@@ -5,8 +5,10 @@
 	let { children } = $props();
 </script>
 
-<header>
-	<nav class="grid h-32 border-b-2 border-b-black max-desktop:grid-rows-2 desktop:grid-cols-2">
+<header class="sticky top-0 z-10 max-desktop:pt-4">
+	<nav
+		class="grid border-b-2 max-desktop:top-0 max-desktop:h-24 max-desktop:grid-rows-2 desktop:h-32 desktop:grid-cols-2"
+	>
 		<div id="home" class="flex items-center max-desktop:justify-center">
 			<a class="text-3xl font-semibold" href="{base}/">Hang (Heather) Do</a>
 		</div>
@@ -46,8 +48,13 @@
 </main>
 
 <style>
+	header {
+		background-color: var(--color-background);
+	}
+
 	nav {
 		padding: 0 clamp(0px, calc(100vw - var(--desktop-min-width)), 12.5rem);
+		border-bottom-color: var(--color-text-primary);
 	}
 
 	li {

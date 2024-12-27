@@ -5,7 +5,7 @@
 <article
 	class="flex max-desktop:mx-10 max-desktop:flex-col max-desktop:pt-0 desktop:flex-row desktop:pt-16"
 >
-	<section>
+	<section class="max-desktop:mt-8">
 		<figure>
 			<img
 				class="max-desktop:m-auto"
