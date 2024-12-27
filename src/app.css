@@ -41,6 +41,15 @@ h1 {
 	margin-bottom: 1.2em;
 }
 
+h2 {
+	font-style: italic;
+	font-weight: 700;
+	text-decoration: underline;
+	font-size: 1.25rem;
+	margin-bottom: 1.2em;
+	letter-spacing: 0.025em;
+}
+
 p {
 	font-size: 1.25rem;
 	margin-bottom: 1.2em;
@@ -51,6 +60,7 @@ p {
 		font-size: 2rem;
 	}
 
+	h2,
 	p {
 		font-size: 1.125rem;
 	}
