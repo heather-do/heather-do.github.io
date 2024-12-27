@@ -5,7 +5,7 @@
 html {
 	/* Measurements */
 	--desktop-min-width: 1024px;
-	--mobile-max-width: 720px;
+	--mobile-max-width: 768px;
 
 	/* Colors */
 	--color-background: #fff5ec;
