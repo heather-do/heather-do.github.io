@@ -3,8 +3,9 @@
 @import 'tailwindcss/utilities';
 
 html {
-	--background: #fff5ec;
-	--text-primary: #884e41;
+	/* Colors */
+	--color-background: #fff5ec;
+	--color-text-primary: #884e41;
 }
 
 @font-face {
@@ -20,7 +21,7 @@ html {
 }
 
 body {
-	background-color: var(--background);
+	background-color: var(--color-background);
 	font-family: Newsreader, serif;
-	color: var(--text-primary);
+	color: var(--color-text-primary);
 }
