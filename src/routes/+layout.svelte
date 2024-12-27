@@ -5,8 +5,8 @@
 
 <header>
 	<nav class="grid h-32 grid-cols-2 border-b-2 border-b-black">
-		<div>
-			<a href="/">Hang (Heather) Do</a>
+		<div class="ml-36 flex items-center">
+			<a class="text-3xl font-semibold" href="/">Hang (Heather) Do</a>
 		</div>
 		<div class="mr-48 flex justify-end">
 			<ul class="flex flex-row gap-16 text-2xl">
