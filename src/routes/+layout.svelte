@@ -19,7 +19,7 @@
 					<a
 						class="-translate-y-0.5 max-desktop:h-6 max-desktop:w-6 desktop:h-8 desktop:w-8"
 						href="/todo"
-						aria-label="LinkedIn"
+						aria-label="Heather's LinkedIn profile"
 						><svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg"
 							><g fill="none" fill-rule="evenodd"
 								><path
