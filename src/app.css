@@ -25,3 +25,7 @@ body {
 	font-family: Newsreader, serif;
 	color: var(--color-text-primary);
 }
+
+a:hover {
+	text-decoration: underline;
+}
