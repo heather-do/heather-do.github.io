@@ -3,7 +3,12 @@
 >
 	<section class="max-desktop:mt-8">
 		<figure>
-			<img class="max-desktop:m-auto" alt="Heather Do's headshot" src="/images/heather-min.jpg" />
+			<img
+				class="max-desktop:m-auto"
+				loading="lazy"
+				alt="Heather Do's headshot"
+				src="/images/heather-min.jpg"
+			/>
 		</figure>
 	</section>
 	<div
