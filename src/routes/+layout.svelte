@@ -1,6 +1,5 @@
 <script lang="ts">
 	import '../app.css';
-	import { base } from '$app/paths';
 
 	let { children } = $props();
 </script>
@@ -10,15 +9,15 @@
 		class="grid border-b-2 max-desktop:top-0 max-desktop:h-24 max-desktop:grid-rows-2 desktop:h-32 desktop:grid-cols-2"
 	>
 		<div id="home" class="flex items-center max-desktop:justify-center">
-			<a class="text-3xl font-semibold" href="{base}/">Hang (Heather) Do</a>
+			<a class="text-3xl font-semibold" href="/">Hang (Heather) Do</a>
 		</div>
 		<div id="menu" class="flex max-desktop:justify-center desktop:justify-end">
 			<ul
 				class="flex flex-row max-desktop:gap-8 max-desktop:text-xl desktop:gap-16 desktop:text-2xl"
 			>
-				<li><a href="{base}/about">About</a></li>
-				<li><a href="{base}/research">Research</a></li>
-				<li><a target="_blank" href="{base}/cv.pdf">CV</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/research">Research</a></li>
+				<li><a target="_blank" href="/cv.pdf">CV</a></li>
 				<li id="logo">
 					<a
 						class="-translate-y-0.5 max-desktop:h-6 max-desktop:w-6 desktop:h-8 desktop:w-8"

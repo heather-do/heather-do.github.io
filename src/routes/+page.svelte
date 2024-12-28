@@ -1,17 +1,9 @@
-<script lang="ts">
-	import { base } from '$app/paths';
-</script>
-
 <article
 	class="flex max-desktop:mx-10 max-desktop:flex-col max-desktop:pt-0 desktop:flex-row desktop:pt-16"
 >
 	<section class="max-desktop:mt-8">
 		<figure>
-			<img
-				class="max-desktop:m-auto"
-				alt="Heather Do's headshot"
-				src="{base}/images/heather-min.jpg"
-			/>
+			<img class="max-desktop:m-auto" alt="Heather Do's headshot" src="/images/heather-min.jpg" />
 		</figure>
 	</section>
 	<div
